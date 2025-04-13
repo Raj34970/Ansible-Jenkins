@@ -1,0 +1,7 @@
+---
+- name: Installing SYS Ops Apps
+  hosts: jenkins
+  gather_facts: true
+  roles:
+    - jenkins
+    

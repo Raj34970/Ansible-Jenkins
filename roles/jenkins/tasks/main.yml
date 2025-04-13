@@ -1,0 +1,7 @@
+# code:language=ansible
+---
+- name: Deploying scritps to the server
+  ansible.builtin.include_tasks: deploy_scripts.yml
+  tags:
+    - never
+    - deploy_scripts
